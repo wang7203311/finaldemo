@@ -1,0 +1,10 @@
+module bus(
+			input logic       GatePC,
+									GateMDR,
+									GateALU,
+									GateMARMUX,
+);
+
+
+
+endmodule
