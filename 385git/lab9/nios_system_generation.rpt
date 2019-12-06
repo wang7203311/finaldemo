@@ -1,0 +1,69 @@
+Info: Starting: Create block symbol file (.bsf)
+Info: qsys-generate D:\385lab\385git\Lab8_provided\nios_system.qsys --block-symbol-file --output-directory=D:\385lab\385git\lab9 --family="Cyclone IV E" --part=EP4CE115F29C7
+Progress: Loading Lab8_provided/nios_system.qsys
+Progress: Reading input file
+Progress: Adding AES [AES_Descryption_Core 1.0]
+Progress: Parameterizing module AES
+Progress: Adding clk_0 [clock_source 18.1]
+Progress: Parameterizing module clk_0
+Progress: Adding jtag_uart_0 [altera_avalon_jtag_uart 18.1]
+Progress: Parameterizing module jtag_uart_0
+Progress: Adding nios2_gen2_0 [altera_nios2_gen2 18.1]
+Progress: Parameterizing module nios2_gen2_0
+Progress: Adding onchip_memory2_0 [altera_avalon_onchip_memory2 18.1]
+Progress: Parameterizing module onchip_memory2_0
+Progress: Adding sdram [altera_avalon_new_sdram_controller 18.1]
+Progress: Parameterizing module sdram
+Progress: Adding sdram_pll [altpll 18.1]
+Progress: Parameterizing module sdram_pll
+Progress: Adding sysid_qsys_0 [altera_avalon_sysid_qsys 18.1]
+Progress: Parameterizing module sysid_qsys_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Warning: nios_system.AES_Descryption_Core: The SIM_VERILOG fileset must specify the top-level module name.
+Info: nios_system.jtag_uart_0: JTAG UART IP input clock need to be at least double (2x) the operating frequency of JTAG TCK on board
+Info: nios_system.sdram: SDRAM Controller will only be supported in Quartus Prime Standard Edition in the future release.
+Info: nios_system.sysid_qsys_0: System ID is not assigned automatically. Edit the System ID parameter to provide a unique ID
+Info: nios_system.sysid_qsys_0: Time stamp will be automatically updated when this component is generated.
+Error: nios_system.nios2_gen2_0.data_master/AES.AES_Slave: Missing connection end (try "Remove Dangling Connections")
+Warning: nios_system.AES: AES.Export_Data must be exported, or connected to a matching conduit.
+Warning: nios_system.AES: AES.AES_Slave_1 must be connected to an Avalon-MM master
+Info: qsys-generate succeeded.
+Info: Finished: Create block symbol file (.bsf)
+Info: 
+Info: Starting: Create HDL design files for synthesis
+Info: qsys-generate D:\385lab\385git\Lab8_provided\nios_system.qsys --synthesis=VERILOG --output-directory=D:\385lab\385git\lab9\synthesis --family="Cyclone IV E" --part=EP4CE115F29C7
+Progress: Loading Lab8_provided/nios_system.qsys
+Progress: Reading input file
+Progress: Adding AES [AES_Descryption_Core 1.0]
+Progress: Parameterizing module AES
+Progress: Adding clk_0 [clock_source 18.1]
+Progress: Parameterizing module clk_0
+Progress: Adding jtag_uart_0 [altera_avalon_jtag_uart 18.1]
+Progress: Parameterizing module jtag_uart_0
+Progress: Adding nios2_gen2_0 [altera_nios2_gen2 18.1]
+Progress: Parameterizing module nios2_gen2_0
+Progress: Adding onchip_memory2_0 [altera_avalon_onchip_memory2 18.1]
+Progress: Parameterizing module onchip_memory2_0
+Progress: Adding sdram [altera_avalon_new_sdram_controller 18.1]
+Progress: Parameterizing module sdram
+Progress: Adding sdram_pll [altpll 18.1]
+Progress: Parameterizing module sdram_pll
+Progress: Adding sysid_qsys_0 [altera_avalon_sysid_qsys 18.1]
+Progress: Parameterizing module sysid_qsys_0
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Warning: nios_system.AES_Descryption_Core: The SIM_VERILOG fileset must specify the top-level module name.
+Info: nios_system.jtag_uart_0: JTAG UART IP input clock need to be at least double (2x) the operating frequency of JTAG TCK on board
+Info: nios_system.sdram: SDRAM Controller will only be supported in Quartus Prime Standard Edition in the future release.
+Info: nios_system.sysid_qsys_0: System ID is not assigned automatically. Edit the System ID parameter to provide a unique ID
+Info: nios_system.sysid_qsys_0: Time stamp will be automatically updated when this component is generated.
+Error: nios_system.nios2_gen2_0.data_master/AES.AES_Slave: Missing connection end (try "Remove Dangling Connections")
+Warning: nios_system.AES: AES.Export_Data must be exported, or connected to a matching conduit.
+Warning: nios_system.AES: AES.AES_Slave_1 must be connected to an Avalon-MM master
+Info: nios_system: Generating nios_system "nios_system" for QUARTUS_SYNTH
+Error: null

@@ -1,0 +1,7 @@
+module PC(
+				input logic Clk, Reset, Inc,
+				input logic[15:0] data_in,
+				output logic[15:0] data_out
+);
+
+endmodule

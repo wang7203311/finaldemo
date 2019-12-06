@@ -1,0 +1,7 @@
+module read_key(
+input logic keycode
+output logic[3:0] key status);
+
+
+
+endmodule

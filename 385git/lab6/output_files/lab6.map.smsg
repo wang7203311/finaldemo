@@ -1,0 +1,5 @@
+Warning (10273): Verilog HDL warning at HexDriver.sv(23): extended using "x" or "z" File: D:/385lab/lab5/HexDriver.sv Line: 23
+Info (10281): Verilog HDL Declaration information at datapath.sv(6): object "PC" differs only in case from object "pc" in the same scope File: D:/385lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/datapath.sv Line: 6
+Info (10281): Verilog HDL Declaration information at datapath.sv(5): object "IR" differs only in case from object "ir" in the same scope File: D:/385lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/datapath.sv Line: 5
+Info (10281): Verilog HDL Declaration information at datapath.sv(5): object "MAR" differs only in case from object "mar" in the same scope File: D:/385lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/datapath.sv Line: 5
+Info (10281): Verilog HDL Declaration information at datapath.sv(5): object "MDR" differs only in case from object "mdr" in the same scope File: D:/385lab/lab6/Updated_ECE385_lab6_provided_Spring_2018/datapath.sv Line: 5

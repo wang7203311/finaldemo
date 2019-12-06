@@ -1,0 +1,14 @@
+module missle(
+input launch,
+output is_missle,
+input         Clk,                // 50 MHz clock
+                             Reset,              // Active-high reset signal
+                             frame_clk,          // The clock indicating a new frame (~60Hz)
+               input [9:0]   DrawX, DrawY,       // Current pixel coordinates
+output logic[15:0]addr,
+input logic[9:0]start_x,
+input logic[9:0]start_y,
+output logic explored,
+input logic alive,
+output logic[15:0]missle_x,missle_y
+);

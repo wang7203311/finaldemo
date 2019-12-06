@@ -1,0 +1,10 @@
+module MUX_UNIT(
+						input logic[15:0] IR,
+						input logic[1:0] ADDR2MUX,
+						input logic[]
+
+);
+
+
+
+endmodule
